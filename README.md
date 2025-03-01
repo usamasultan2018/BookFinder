@@ -1,16 +1,64 @@
-# bookfinder
+# BookFinder
 
-A new Flutter project.
+BookFinder is a Flutter application that helps users search for books, view details, and manage their favorite books.
+## Features
 
-## Getting Started
+✅ Search Books – Find books by title or author
+✅ Book Details – View book information (title, author, publisher, cover image)
+✅ Favorites – Save and manage favorite books
+✅ Theming – Supports light & dark mode
 
-This project is a starting point for a Flutter application.
+## Folder Structure
 
-A few resources to get you started if this is your first Flutter project:
+📂 lib
+ ┣ 📂 core
+ ┃ ┣ 📂 utils
+ ┃ ┃ ┣ app_colors.dart       # Defines app color scheme
+ ┃ ┃ ┣ theme_preferences.dart # Manages theme settings
+ ┃ ┣ 📂 models
+ ┃ ┃ ┣ book.dart             # Book model
+ ┃ ┣ 📂 services
+ ┃ ┃ ┣ api_constants.dart    # API endpoint constants
+ ┃ ┃ ┣ api_exception.dart    # Handles API errors
+ ┃ ┃ ┣ api_service.dart      # Manages API requests
+ ┃ ┃ ┣ api_response.dart     # Standard API response format
+ ┃ ┣ 📂 repositories
+ ┃ ┃ ┣ book_repository.dart  # Handles book-related data fetching
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+ ┣ 📂 features
+ ┃ ┣ 📂 home
+ ┃ ┃ ┣ 📂 view               # Home screen UI
+ ┃ ┃ ┣ 📂 viewmodel          # Home screen logic
+ ┃ ┃ ┣ 📂 widgets            # Reusable home components
+ ┃ ┣ 📂 favorites
+ ┃ ┃ ┣ 📂 view               # Favorites screen UI
+ ┃ ┃ ┣ 📂 viewmodel          # Favorites screen logic
+ ┃ ┃ ┣ 📂 widgets            # Reusable favorite components
+ ┃ ┣ 📂 settings
+ ┃ ┃ ┣ 📂 view               # Settings screen UI
+ ┃ ┃ ┣ 📂 viewmodel          # Settings logic
+ ┃ ┃ ┣ 📂 widgets            # Reusable settings components
+ ┃ ┣ 📂 splash
+ ┃ ┃ ┣ 📂 view               # Splash screen UI
+ ┃ ┃ ┣ 📂 viewmodel          # Splash logic
+ ┃ ┃ ┣ 📂 widgets            # Reusable splash components
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+ ┣ 📂 shared
+ ┃ ┣ 📂 widgets              # Common reusable widgets
+ ┃ ┣ 📂 theme
+ ┃ ┃ ┣ app_theme.dart        # Centralized theme settings
+
+ ┗ main.dart                 # Entry point of the app
+
+# Installation
+git clone https://github.com/yourusername/bookfinder.git
+cd bookfinder
+flutter pub get
+flutter run
+# Dependencies
+flutter pub get
+
+# API Used
+his app fetches book data from the Google Books API.
+
+🔗 API Docs: Google Books API
