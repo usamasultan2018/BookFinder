@@ -9,6 +9,7 @@
 ✅ **Favorites** – Save and manage favorite books  
 ✅ **Theming** – Supports light & dark mode  
 
+# ✨ APP SCREENSHOT 
 ### 🔍 Home Screen  
 <img src="screenshots/home.png" width="300"/>  
 
