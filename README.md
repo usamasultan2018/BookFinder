@@ -10,16 +10,17 @@
 ✅ **Theming** – Supports light & dark mode  
 
 ### 🔍 Home Screen  
-![Home Screen](screenshots/home.png)  
+<img src="screenshots/home.png" width="300"/>  
 
 ### 📖 Book Details  
-![Book Details](screenshots/details.png)  
+<img src="screenshots/details.png" width="300"/>  
 
 ### ⭐ Favorites  
-![Favorites](screenshots/favorites.png) 
+<img src="screenshots/favorites.png" width="300"/>  
 
-### ⭐ Favorites  
-![Setting](screenshots/setting.png) 
+### ⚙ Settings  
+<img src="screenshots/setting.png" width="300"/>  
+
 
 
 ## 🚀 Installation  
