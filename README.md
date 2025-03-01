@@ -9,6 +9,19 @@
 ✅ **Favorites** – Save and manage favorite books  
 ✅ **Theming** – Supports light & dark mode  
 
+### 🔍 Home Screen  
+![Home Screen](screenshots/home.png)  
+
+### 📖 Book Details  
+![Book Details](screenshots/details.png)  
+
+### ⭐ Favorites  
+![Favorites](screenshots/favorites.png) 
+
+### ⭐ Favorites  
+![Setting](screenshots/setting.png) 
+
+
 ## 🚀 Installation  
 
 ```sh
