@@ -17,17 +17,3 @@ cd bookfinder
 flutter pub get
 flutter run
 
-## 📸 App Screenshots  
-
-### 🔍 Home Screen  
-![Home Screen](screenshots/home.png)  
-
-### 📖 Book Details  
-![Book Details](screenshots/details.png)  
-
-### ⭐ Favorites  
-![Favorites](screenshots/favorites.png) 
-
-### ⭐ Favorites  
-![Setting](screenshots/setting.png) 
-
